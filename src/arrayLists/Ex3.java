@@ -11,11 +11,11 @@ public class Ex3 {
         // return a new ArrayList containing only the elements
         // that appear in both lists.
 
-        ArrayList<Integer> list1=new ArrayList<>(Arrays.asList(1,5,7,9,23,54,6));
-        ArrayList<Integer> list2=new ArrayList<>(Arrays.asList(2,3,4,5,6));
+        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1, 5, 7, 9, 23, 54, 6));
+        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(2, 3, 4, 5, 6));
 
-        ArrayList<Integer> commonElements=list1.stream().distinct()
-                .filter(i->list2.contains(i))
+        ArrayList<Integer> commonElements = list1.stream().distinct()
+                .filter(i -> list2.contains(i))
                 .collect(Collectors.toCollection(ArrayList::new));
         System.out.println(commonElements);
 

@@ -12,11 +12,10 @@ public class Ex2 {
         //Create an ArrayList of strings and
         // sort it in descending order based on the length of the strings.
 
-        ArrayList<String> words=new ArrayList<>(Arrays.asList("hi","hello","take","get","go","help"));
+        ArrayList<String> words = new ArrayList<>(Arrays.asList("hi", "hello", "take", "get", "go", "help"));
         Collections
-                .sort(words,Comparator.comparing(String::length).reversed());
+                .sort(words, Comparator.comparing(String::length).reversed());
         System.out.println(words);
-
 
 
     }

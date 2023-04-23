@@ -10,9 +10,9 @@ public class Ex7 {
 //Given an ArrayList of integers,
 // rotate the elements to the right by a given number of steps.
 
- ArrayList<Integer> numbers=new ArrayList<>(Arrays.asList(3,4,6,1,12,34,65,2));
-    int rotate=6;
-        Collections.rotate(numbers,rotate);
+        ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(3, 4, 6, 1, 12, 34, 65, 2));
+        int rotate = 6;
+        Collections.rotate(numbers, rotate);
 
         System.out.println(numbers);
 

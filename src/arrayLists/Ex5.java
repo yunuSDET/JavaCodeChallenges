@@ -8,7 +8,7 @@ public class Ex5 {
 
     public static void main(String[] args) {
         //Given an ArrayList of integers, find the first two largest elements.
-        ArrayList<Integer> list=new ArrayList<>(Arrays.asList(1,5,7,9,23,54,6));
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1, 5, 7, 9, 23, 54, 6));
         list.stream()
                 .sorted(Collections.reverseOrder())
                 .limit(2)
