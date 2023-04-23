@@ -3,7 +3,7 @@ package arrayLists;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Ex1 {
+public class Ex01 {
 
     public static void main(String[] args) {
         //Create an ArrayList of integers, remove all even numbers,

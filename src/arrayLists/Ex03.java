@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class Ex3 {
+public class Ex03 {
 
     public static void main(String[] args) {
         //Given two ArrayLists of integers,

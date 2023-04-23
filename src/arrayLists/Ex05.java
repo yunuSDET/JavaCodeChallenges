@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Ex5 {
+public class Ex05 {
 
     public static void main(String[] args) {
         //Given an ArrayList of integers, find the first two largest elements.

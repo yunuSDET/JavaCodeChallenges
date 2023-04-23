@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Ex6 {
+public class Ex06 {
 
     //Create an ArrayList of integers and find the subarray with the maximum sum.
     public static void main(String[] args) {

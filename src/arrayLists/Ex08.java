@@ -2,11 +2,9 @@ package arrayLists;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class Ex8 {
+public class Ex08 {
 
     public static void main(String[] args) {
 
