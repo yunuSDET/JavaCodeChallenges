@@ -15,7 +15,7 @@ public class Ex6 {
         Collections.sort(list,Collections.reverseOrder());
         int maxSum=list.get(0)+list.get(1);
         System.out.println(maxSum);
-        //sqsqs
+
 
     }
 
