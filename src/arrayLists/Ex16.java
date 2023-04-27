@@ -16,5 +16,7 @@ public class Ex16 {
                 .filter(list2::contains)
                 .collect(Collectors.toList());
         System.out.println(newList);
+
+
     }
 }
